@@ -7,10 +7,6 @@
     "build": "netlify-lambda build express",
     "start": "nodemon server-local.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neverendingqs/netlify-express.git"
-  },
   "keywords": [
     "netlify",
     "express.js"
