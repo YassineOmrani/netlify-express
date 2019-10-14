@@ -1,28 +1,26 @@
 {
   "name": "netlify-express",
-  "version": "0.0.1",
-  "description": "Example of how to deploy a Express.js Netlify app.",
-  "main": "functions/server.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-local.js",
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon server-local.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "netlify",
-    "express.js"
-  ],
-  "author": "neverendingqs",
-  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YassineOmrani/netlify-deploy-test.git"
+  },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neverendingqs/netlify-express/issues"
+    "url": "https://github.com/YassineOmrani/netlify-deploy-test/issues"
   },
-  "homepage": "https://github.com/neverendingqs/netlify-express#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "homepage": "https://github.com/YassineOmrani/netlify-deploy-test#readme",
+  "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "netlify-lambda": "^1.6.3",
-    "nodemon": "^1.19.2",
-    "serverless-http": "^2.3.0"
+    "path": "^0.12.7",
+    "serverless": "^1.54.0"
   }
 }
